@@ -1,0 +1,30 @@
+packageJobJar: [/tmp/hadoop-unjar7019783627070291016/] [] /tmp/streamjob1770113909799286658.jar tmpDir=null
+2024-05-06 13:03:27,887 INFO client.RMProxy: Connecting to ResourceManager at localhost/127.0.0.1:8032
+2024-05-06 13:03:28,501 INFO client.RMProxy: Connecting to ResourceManager at localhost/127.0.0.1:8032
+2024-05-06 13:03:29,064 INFO mapreduce.JobResourceUploader: Disabling Erasure Coding for path: /tmp/hadoop-yarn/staging/root/.staging/job_1715000445951_0001
+2024-05-06 13:03:29,760 INFO mapred.FileInputFormat: Total input files to process : 1
+2024-05-06 13:03:29,925 INFO mapreduce.JobSubmitter: number of splits:2
+2024-05-06 13:03:30,330 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1715000445951_0001
+2024-05-06 13:03:30,332 INFO mapreduce.JobSubmitter: Executing with tokens: []
+2024-05-06 13:03:30,822 INFO conf.Configuration: resource-types.xml not found
+2024-05-06 13:03:30,823 INFO resource.ResourceUtils: Unable to find 'resource-types.xml'.
+2024-05-06 13:03:31,314 INFO impl.YarnClientImpl: Submitted application application_1715000445951_0001
+2024-05-06 13:03:31,417 INFO mapreduce.Job: The url to track the job: http://f2306ffe6d19:8088/proxy/application_1715000445951_0001/
+2024-05-06 13:03:31,419 INFO mapreduce.Job: Running job: job_1715000445951_0001
+2024-05-06 13:03:43,948 INFO mapreduce.Job: Job job_1715000445951_0001 running in uber mode : false
+2024-05-06 13:03:43,949 INFO mapreduce.Job:  map 0% reduce 0%
+2024-05-06 13:03:53,149 INFO mapreduce.Job:  map 100% reduce 0%
+2024-05-06 13:04:02,309 INFO mapreduce.Job:  map 100% reduce 100%
+2024-05-06 13:04:03,335 INFO mapreduce.Job: Job job_1715000445951_0001 completed successfully
+2024-05-06 13:04:03,530 INFO mapreduce.Job: Counters: 54
+	File System Counters
+		FILE: Number of bytes read=17609
+		FILE: Number of bytes written=750594
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+...
+		Bytes Read=15196
+	File Output Format Counters 
+		Bytes Written=7684
+2024-05-06 13:04:03,530 INFO streaming.StreamJob: Output directory: /word_count_with_python/output
